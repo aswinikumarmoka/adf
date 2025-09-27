@@ -1,0 +1,12 @@
+{
+	"name": "Ls_sink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=ashwinadfsinkblob;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEIxNDQ4RjQ3LUQ5NDMtNEUyRC1BQTA5LUVBODg5MDU4NDhFMl9mNTBkMWZjYS02YjdmLTRjNDMtOGY4Mi03NjE4ZGQyYWIwMjAiDQp9"
+		}
+	}
+}
