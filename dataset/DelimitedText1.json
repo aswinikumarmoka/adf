@@ -1,12 +1,16 @@
 {
-	"name": "Ds_sink",
+	"name": "DelimitedText1",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_source_blob",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "sinkfiles"
+				"container": "source"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",

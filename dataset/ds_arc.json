@@ -1,12 +1,16 @@
 {
-	"name": "Ds_sink",
+	"name": "ds_arc",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_source_blob",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "sinkfiles"
+				"container": "archieve"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
